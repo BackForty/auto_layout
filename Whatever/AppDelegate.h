@@ -8,8 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class StackableView;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet StackableView *stackableView;
+
+- (IBAction)addView:(id)sender;
 
 @end

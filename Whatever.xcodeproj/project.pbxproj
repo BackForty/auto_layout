@@ -13,6 +13,10 @@
 		C3C40DBF16E8F4EB00C70123 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C3C40DBD16E8F4EB00C70123 /* Credits.rtf */; };
 		C3C40DC216E8F4EB00C70123 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C40DC116E8F4EB00C70123 /* AppDelegate.m */; };
 		C3C40DC516E8F4EC00C70123 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C40DC316E8F4EC00C70123 /* MainMenu.xib */; };
+		C3C40DCD16E8F4FC00C70123 /* StackableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C40DCC16E8F4FC00C70123 /* StackableView.m */; };
+		C3C40DD016E8F51400C70123 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C40DCF16E8F51400C70123 /* RedView.m */; };
+		C3C40DD316E8F53800C70123 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C40DD216E8F53800C70123 /* GreenView.m */; };
+		C3C40DD616E8F55100C70123 /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C40DD516E8F55100C70123 /* BlueView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		C3C40DC016E8F4EB00C70123 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3C40DC116E8F4EB00C70123 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C3C40DC416E8F4EC00C70123 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C3C40DCB16E8F4FC00C70123 /* StackableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackableView.h; sourceTree = "<group>"; };
+		C3C40DCC16E8F4FC00C70123 /* StackableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackableView.m; sourceTree = "<group>"; };
+		C3C40DCE16E8F51400C70123 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		C3C40DCF16E8F51400C70123 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		C3C40DD116E8F53800C70123 /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
+		C3C40DD216E8F53800C70123 /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		C3C40DD416E8F55100C70123 /* BlueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
+		C3C40DD516E8F55100C70123 /* BlueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,14 @@
 				C3C40DC116E8F4EB00C70123 /* AppDelegate.m */,
 				C3C40DC316E8F4EC00C70123 /* MainMenu.xib */,
 				C3C40DB516E8F4EB00C70123 /* Supporting Files */,
+				C3C40DCB16E8F4FC00C70123 /* StackableView.h */,
+				C3C40DCC16E8F4FC00C70123 /* StackableView.m */,
+				C3C40DCE16E8F51400C70123 /* RedView.h */,
+				C3C40DCF16E8F51400C70123 /* RedView.m */,
+				C3C40DD116E8F53800C70123 /* GreenView.h */,
+				C3C40DD216E8F53800C70123 /* GreenView.m */,
+				C3C40DD416E8F55100C70123 /* BlueView.h */,
+				C3C40DD516E8F55100C70123 /* BlueView.m */,
 			);
 			path = Whatever;
 			sourceTree = "<group>";
@@ -168,6 +188,10 @@
 			files = (
 				C3C40DBB16E8F4EB00C70123 /* main.m in Sources */,
 				C3C40DC216E8F4EB00C70123 /* AppDelegate.m in Sources */,
+				C3C40DCD16E8F4FC00C70123 /* StackableView.m in Sources */,
+				C3C40DD016E8F51400C70123 /* RedView.m in Sources */,
+				C3C40DD316E8F53800C70123 /* GreenView.m in Sources */,
+				C3C40DD616E8F55100C70123 /* BlueView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
